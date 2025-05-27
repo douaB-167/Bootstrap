@@ -1,0 +1,21 @@
+.img-slider {
+    height: 35vh; /* altezza riferita al viewport */
+    filter: brightness(0.4); /* va da 0 a 1,per risaltare il testo */
+    object-fit: cover;
+    object-position: center;
+}
+
+.margin-navbar {
+    margin-top: 56px;
+}
+
+@media (min-width: 576px){
+    .img-slider{
+        height: 45vh;
+    }
+}
+@media (min-width: 768px){
+    .img-slider{
+        height: 60vh;
+    }
+}
